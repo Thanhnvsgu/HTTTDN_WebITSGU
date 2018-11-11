@@ -1,0 +1,12 @@
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\bin\Debug\Model.dll.config
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\bin\Debug\Model.dll
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\bin\Debug\Model.pdb
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\bin\Debug\EntityFramework.dll
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\bin\Debug\EntityFramework.xml
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\obj\Debug\Model.dll
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\obj\Debug\Model.pdb
+C:\Users\DELL PC\Documents\GitHub\HTTTDN_WebITSGU\DoAnKhoaIT\Model\obj\Debug\Model.csprojAssemblyReference.cache
