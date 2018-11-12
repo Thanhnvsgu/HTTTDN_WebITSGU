@@ -464,108 +464,21 @@
     <script src="~/Assets/Admin/plugins/bower_components/timepicker/bootstrap-timepicker.min.js"></script>
     <script src="~/Assets/Admin/plugins/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
     <script>
-        //document.getElementById("mySelect").value = "CV2";
+
 
         $(document).ready(function () {
-
-            var table = $('#taikhoanTable').DataTable({
-                "order": [[1, "desc"]],
-                "paging": true,
-                "ordering": true,
-                "info": true,
-                "columnDefs": [  // dinh dang column
-
-                    {
-                        "targets": [5],
-                        "searchable": false,
-                        "ordering": false
-                    }
-                ],
-                "pagingType": "full_numbers",
-                "lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
-                "language": {
-                    "lengthMenu": "Hiển thị _MENU_",
-                    "zeroRecords": "Không tìm thấy thông tin",
-                    "info": "Hiển thị _PAGE_ trên _PAGES_",
-                    "infoEmpty": "Không tìm thấy dữ liệu",
-                    "infoFiltered": "(tìm kiếm trong _MAX_ hàng)",
-                    "paginate": {
-                        "first": "Đầu",
-                        "last": "Cuối",
-                        "next": "Tiếp",
-                        "previous": "Trước"
-                    },
-                }
-
+            $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+                localStorage.setItem('activeTab', $(e.target).attr('href'));
             });
-            var table2 = $('#chucvuTable').DataTable({
-                "order": [[1, "desc"]],
-                "paging": true,
-                "ordering": true,
-                "info": true,
-                "columnDefs": [  // dinh dang column
-
-                    {
-                        "targets": [1],
-                        "searchable": false,
-                        "ordering": false
-                    }
-                ],
-                "pagingType": "full_numbers",
-                "lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
-                "language": {
-                    "lengthMenu": "Hiển thị _MENU_",
-                    "zeroRecords": "Không tìm thấy thông tin",
-                    "info": "Hiển thị _PAGE_ trên _PAGES_",
-                    "infoEmpty": "Không tìm thấy dữ liệu",
-                    "infoFiltered": "(tìm kiếm trong _MAX_ hàng)",
-                    "paginate": {
-                        "first": "Đầu",
-                        "last": "Cuối",
-                        "next": "Tiếp",
-                        "previous": "Trước"
-                    },
-                }
-
+            var activeTab = localStorage.getItem('activeTab');
+            if (activeTab) {
+                $('#tabthongtinnguoidung a[href="' + activeTab + '"]').tab('show');
+            }
+            $(".btn2").click(function () {
+                alert("A");
+                location.reload();
             });
-            $('#ttaikhoan.toggle-vis').on('click', function (e) {
-                e.preventDefault();
-
-                // Get the column API object
-                var column = table.column($(this).attr('data-column'));
-
-                // Toggle the visibility
-                column.visible(!column.visible());
-            });
-            $('#tchucvu.toggle-vis').on('click', function (e) {
-                e.preventDefault();
-
-                // Get the column API object
-                var column = table2.column($(this).attr('data-column'));
-
-                // Toggle the visibility
-                column.visible(!column.visible());
-            });
-
-
         });
-
-
-        $('#example23').DataTable({
-            dom: 'Bfrtip',
-            buttons: [
-                'copy', 'csv', 'excel', 'pdf', 'print'
-            ]
-        });
-        var show = @ViewBag.show;
-        var bang = @ViewBag.bang;
-        if (show == true && bang == "themtaikhoan") {
-            $(window).on('load', function () {
-                $('#themtaikhoan').modal('show');
-            });
-        }
-
-
 
         // Clock pickers
         $('#single-input').clockpicker({
@@ -713,6 +626,8 @@
     <script src="~/Assets/Admin/plugins/bower_components/styleswitcher/jQuery.style.switcher.js"></script>
 
     @RenderSection("JsFooter", required: false)
+
+
 
 </body>
 

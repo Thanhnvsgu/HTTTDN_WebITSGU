@@ -33,7 +33,7 @@
     <!-- /row -->
     <div class="row">
         <div class="col-sm-12">
-            <div class="white-box" id="tabs">
+            <div class="white-box" id="tabthongtinnguoidung">
                 <ul class="nav customtab nav-tabs" role="tablist">
                     <li role="presentation" id="tabtaikhoan" class="active"><a id="a_taikhoan" href="#taikhoan1" aria-controls="taikhoan" role="tab" data-toggle="tab" aria-expanded="true"><span class="visible-xs"><i class="ti-home"></i></span><span class="hidden-xs"> Tài khoản</span></a></li>
                     <li role="presentation" id="tabchucvu" class=""><a id="a_chucvu" href="#chucvu1" aria-controls="chucvu" role="tab" data-toggle="tab" aria-expanded="false"><span class="visible-xs"><i class="ti-user"></i></span> <span class="hidden-xs">Chức vụ</span></a></li>
@@ -183,7 +183,7 @@
                                                 <div class="form-group">
                                                     <label class="col-md-12"> Họ tên </label>
                                                     <div class="col-md-12">
-                                                        @Html.TextBoxFor(model => model.thongtinnguoidung.Hoten, "", new { @type = "text", @class = "form-control hotenuseredit", @placeholder = "họ tên", @required = "required" })
+                                                        @Html.TextBoxFor(model => model.thongtinnguoidung.Hoten, "", new { @type = "text", @class = "form-control hotentaikhoanedit", @placeholder = "họ tên", @required = "required" })
                                                         @*<input type="text" class="form-control" placeholder="Họ tên" required />*@
                                                     </div>
                                                 </div>
@@ -191,7 +191,7 @@
                                                     <label class="col-md-12"> Ngày sinh </label>
                                                     <div class="col-md-12">
                                                         <div class="input-group">
-                                                            @Html.TextBoxFor(model => model.thongtinnguoidung.Namsinh, "", new { @type = "text", @class = "form-control ngaysinhuseredit", @id = "datepicker-autoclose2", @placeholder = "mm/dd/yyyy", @required = "required" })
+                                                            @Html.TextBoxFor(model => model.thongtinnguoidung.Namsinh, "", new { @type = "text", @class = "form-control ngaysinhtaikhoanedit", @id = "datepicker-autoclose2", @placeholder = "mm/dd/yyyy", @required = "required" })
                                                             @*<inpuf type="text" class="form-control" id="datepicker-autoclose" placeholder="mm/dd/yyyy" required />*@
                                                             <span class="input-group-addon"><i class="icon-calender"></i></span>
                                                         </div>
@@ -201,7 +201,7 @@
                                                 <div class="form-group">
                                                     <label class="col-md-12"> Số điện thoại</label>
                                                     <div class="col-md-12">
-                                                        @Html.TextBoxFor(model => model.thongtinnguoidung.Sodienthoai, "", new { @type = "text", @placeholder = "", @data_mask = "+84 99 999 9999", @class = "form-control sdtuseredit", @required = "required" })
+                                                        @Html.TextBoxFor(model => model.thongtinnguoidung.Sodienthoai, "", new { @type = "text", @placeholder = "", @data_mask = "+84 99 999 9999", @class = "form-control sdttaikhoanedit", @required = "required" })
                                                         @*<input type="text" placeholder="" data-mask="+84 99 999 9999" class="form-control" required>*@
                                                     </div>
 
@@ -216,7 +216,7 @@
                                                 <div class="form-group">
                                                     <label class="col-md-12"> Quê quán </label>
                                                     <div class="col-md-12">
-                                                        @Html.TextBoxFor(model => model.thongtinnguoidung.Quequan, "", new { @type = "text", @placeholder = "quê quán", @class = "form-control quequanuseredit", @required = "required" })
+                                                        @Html.TextBoxFor(model => model.thongtinnguoidung.Quequan, "", new { @type = "text", @placeholder = "quê quán", @class = "form-control quequantaikhoanedit", @required = "required" })
                                                         @*<input type="text" placeholder="quê quán" class="form-control" required>*@
                                                     </div>
 
@@ -244,7 +244,7 @@
                                                     <label class="col-sm-12">Chức vụ</label>
                                                     <div class="col-sm-12 id_100">
 
-                                                        @Html.DropDownListFor(Model => Model.thongtinnguoidung.Machucvu, new SelectList(ViewBag.Ichucvu, "Machucvu", "Tenchucvu"), new { @class = "form-control", @id = "mySelect", required = "required" })
+                                                        @Html.DropDownListFor(Model => Model.thongtinnguoidung.Machucvu, new SelectList(ViewBag.Ichucvu, "Machucvu", "Tenchucvu"), new { @id = "taikhoanedit_machucvu", @class = "form-control", required = "required" })
 
                                                     </div>
                                                 </div>
@@ -264,7 +264,7 @@
                                         <div class="modal-footer">
 
                                             <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
-                                            <button type="submit" class="btn btn-success waves-effect waves-light m-r-30">Lưu</button>
+                                            <button type="button" class="btn btn-success btnsuataikhoan waves-effect waves-light m-r-30">Lưu</button>
 
                                         </div>
                                     }
@@ -302,7 +302,7 @@
                                             <td class="tentaikhoan">@item.Tentaikhoan</td>
                                             @*<td class="machucvutaikhoan">@item.Machucvu</td>*@
                                             <td class="matkhautaikhoan">@item.Matkhau</td>
-                                            <td>
+                                            <td class="trangthaitaikhoan">
 
 
                                                 @if (item.Trangthaihd == "Offline")
@@ -317,7 +317,7 @@
 
                                             </td>
 
-                                            <td>@item.TGdangki</td>
+                                            <td class="tgdangkitaikhoan">@item.TGdangki</td>
 
                                             @*<td class="mailtaikhoan">@item.Mail</td>*@
                                             <td class="flagtaikhoan">
@@ -350,7 +350,7 @@
                                 </tbody>
                             </table>
                         </div>
-                        <button class=" btn btn-danger"> Test </button>
+                        <button class=" btn btn-danger btntest"> Test </button>
                     </div>
 
                     <div role="tabpanel" class="tab-pane fade" id="chucvu1">
@@ -408,7 +408,7 @@
 
                                                 @foreach (var item in Model.listquyen)
                                                 {
-                                                    var ten = "quyen" + i;
+                                                    var ten = "quyen" + item.Maquyen;
 
                                                     <div class="m-b-15 col-lg-6 checkbox checkbox-success checkbox-circle">
                                                         @Html.TextBoxFor(model => model.quyen[i], "", new { @type = "checkbox", @class = "quyenadd", @Value = item.Maquyen, @id = ten })
@@ -426,7 +426,7 @@
                                         <div class="modal-footer">
 
                                             <button type="button" class="btn btn-default">Đóng</button>
-                                            <button type="button" class="btn btn-success btnthemchucvu waves-effect waves-light m-r-10">Thêm</button>
+                                            <button type="button" id="btnthemchucvu" class="btn btn-success waves-effect waves-light m-r-10">Thêm</button>
 
                                         </div>
                                     </form>
@@ -463,24 +463,24 @@
 
 
 
-                                                        @Html.TextBoxFor(model => model.chucvu.Machucvu, "", new { @type = "text", @class = "form-control", @placeholder = "Mã chức vụ", required = "required", @readonly = "readonly" })
+                                                        @Html.TextBoxFor(model => model.chucvu.Machucvu, "", new { @type = "text", @class = "form-control machucvuedit", @placeholder = "Mã chức vụ", required = "required", @readonly = "readonly" })
 
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="col-md-12">Tên chức vụ</label>
                                                     <div class="col-md-12">
-                                                        @Html.TextBoxFor(model => model.chucvu.Tenchucvu, "", new { @class = "form-control", @type = "text", @placeholder = "Tên chức vụ", required = "required" })
+                                                        @Html.TextBoxFor(model => model.chucvu.Tenchucvu, "", new { @class = "form-control tenchucvuedit", @type = "text", @placeholder = "Tên chức vụ", required = "required" })
 
                                                     </div>
                                                 </div>
 
-                                                <div class="form-group">
+                                                @*<div class="form-group">
                                                     <label class="col-sm-12">Flag</label>
                                                     <div class="col-sm-12">
-                                                        @Html.DropDownListFor(Model => Model.chucvu.Flag, new SelectList(ViewBag.Itrangthai, "id", "flag"), new { @class = "form-control" })
+                                                        @Html.DropDownListFor(Model => Model.chucvu.Flag, new SelectList(ViewBag.Itrangthai, "id", "flag"), new { @class = "form-control flagchucvuedit" })
                                                     </div>
-                                                </div>
+                                                </div>*@
                                             </div>
                                             <div class="white-box m-b-0 p-t-0 p-b-0">
                                                 <h3 class="box-title m-b-50">Phân quyền</h3>
@@ -489,11 +489,12 @@
                                                 }
                                                 @foreach (var item in Model.listquyen)
                                                 {
-                                                    <span class="m-b-30 col-lg-6">
-                                                        @Html.CheckBoxFor(model => model.quyen[i], new { @class = "js-switch", @data_color = "#f96262", @data_size = "small", @style = "display: none;", @data_switchery = "true" })
-                                                        @*<input type="checkbox"  class="js-switch" data-color="#f96262" data-size="small" style="display: none;" data-switchery="true">*@
-                                                        <span> @item.Tenquyen </span>
-                                                    </span>
+                                                    var ten = "quyenedit" + item.Maquyen;
+                                                <span class="m-b-15 col-lg-6 checkbox checkbox-success checkbox-circle">
+                                                    @Html.TextBoxFor(model => model.quyen[i], "", new { @type = "checkbox", @class = "quyenedit", @Value = item.Maquyen, @id = ten })
+
+                                                    <label for=@ten> @item.Tenquyen </label>
+                                                </span>
                                                     ++i;
                                                 }
                                                 <div class="text-info" style="font-size:12px"> có tổng cộng @i quyền</div>
@@ -504,8 +505,8 @@
 
                                         <div class="modal-footer">
 
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                            <button type="submit" id="btnsuachucvu" class="btn btn-success waves-effect waves-light m-r-10">Submit</button>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                                            <button type="button" id="btnsuachucvu" class="btn btn-success waves-effect waves-light m-r-10">Lưu</button>
 
                                         </div>
                                     }
@@ -533,9 +534,9 @@
                                     @foreach (var item in Model.listchucvu)
                                     {
                                         <tr>
-                                            <td>@item.Machucvu</td>
-                                            <td>@item.Tenchucvu</td>
-                                            <td>
+                                            <td class="machucvu">@item.Machucvu</td>
+                                            <td class="tenchucvu">@item.Tenchucvu</td>
+                                            <td class="flagchucvu">
                                                 <a class="btnchucvuflag" data-machucvu="@item.Machucvu" hres="#">
                                                     @if (@item.Flag == true)
                                                     {
@@ -548,7 +549,7 @@
                                                 </a>
                                             </td>
                                             <td>
-                                                <button class="btnsuachucvu" type="button" data-toggle="modal" data-target="#suachucvu" style="background-color:transparent;border:none">
+                                                <button class="btnloadchucvu" type="button" data-toggle="modal" data-target="#suachucvu" style="background-color:transparent;border:none">
                                                     <i class="fa fa-pencil-square-o" style="color:red"> </i>
                                                 </button>
 

@@ -60,6 +60,16 @@ namespace Model.DAO.Admin
             var res = db.Quyennguoidungs.Add(entity);
             return true;
         }
+        public bool themchitietquyen(string machucvu, string maquyen)
+        {
+            Chitietquyen t = new Chitietquyen();
+            t.Maquyen = maquyen;
+            t.Machucvu = machucvu;
+            t.Flag = true;
+            var res = db.Chitietquyens.Add(t);
+            db.SaveChanges();
+            return true;
+        }
         public Taikhoan timtaikhoan(string tentaikhoan)
         {
             return db.Taikhoans.Find(tentaikhoan);
@@ -95,6 +105,12 @@ namespace Model.DAO.Admin
             return true;
 
         }
+        public bool suachucvu(Chucvu entity)
+        {
+            var res = db.Chucvus.Find(entity.Machucvu);
+            res.Tenchucvu = entity.Tenchucvu;
+            return true;
+        }
         public IEnumerable<Chucvu> Ichucvu()
         {
             var res = db.Chucvus;
@@ -126,6 +142,11 @@ namespace Model.DAO.Admin
             chucvu.Flag = !chucvu.Flag;
             db.SaveChanges();
             return !chucvu.Flag;
+        }
+        public List<Chitietquyen> timlistquyen(string id)
+        {
+            var res = db.Chitietquyens.Where(model => model.Machucvu == id).ToList();
+            return res;
         }
     }
 }
