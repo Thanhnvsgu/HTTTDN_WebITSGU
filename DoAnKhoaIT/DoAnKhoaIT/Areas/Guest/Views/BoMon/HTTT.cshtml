@@ -1,0 +1,297 @@
+﻿
+@{
+    ViewBag.Title = "HTTT";
+    Layout = "~/Areas/Guest/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link href="/Assets/Guest/css/khungbentrai.css" rel="stylesheet" id="theme-stylesheet">
+</head>
+<body>
+    <div id="content">
+
+        <div class="container">
+
+            <div class="col-md-12">
+                <ul class="breadcrumb">
+                    <li>
+                        <a @Html.ActionLink("Trang chủ", "Index", "Home")</a>
+                    </li>
+                    <li>Bộ môn</li>
+                    <li>Hệ thống thông tin</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <!-- *** PAGES MENU ***
+                _________________________________________________________ -->
+                <!-- *** PAGES MENU END *** -->
+
+                <div class="panel panel-default sidebar-menu">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="font-size:18px">Hệ thống thông tin</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p> @Html.ActionLink("Hệ thống thông tin", "HTTT", "BoMon")</p>
+                        <p> @Html.ActionLink("Kỹ thuật phần mềm", "KTPM", "BoMon")</p>
+                        <p> @Html.ActionLink("Khoa học máy tính", "KHMT", "BoMon")</p>
+                        <p> @Html.ActionLink("Mạng máy tính", "MMT", "BoMon")</p>
+                    </div>
+                </div>
+
+                <!-- *** PAGES MENU END *** -->
+                @*<div class="banner">
+                        <a href="#">
+                            <img src="../../../cntt_media/khoa-cntt.jpg" alt="Khoa CNTT" class="img-responsive">
+                        </a>
+                    </div>*@
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="box" id="text-page">
+                    <h1 style="font-size:22px">Bộ môn Hệ thống thông tin</h1>
+
+                    <p>Đội ngũ cán bộ của bộ môn bao gồm:</p>
+
+                    <p>• Tiến sĩ: 01</p>
+
+                    <p>• Thạc sĩ, NCS: 03 <!--------------------------></p>
+
+                    <div class="col-md-12" data-animate="fadeInUp">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="post" style="background-color:#FFF">
+                                    <a href="#"><img alt="" class="hieuunganh_image" src="../../../images/cntt_media/male.png" style="border-radius:20%" width="100" /> </a>
+
+                                    <div class="hieuunganh_box">
+                                        <div><a class="btn btn-success" href="#" type="button">Xem thêm</a></div>
+                                    </div>
+
+                                    <div>
+                                        <p style="text-align:center">
+                                            Trưởng bộ môn<br />
+                                            TS.Nguyễn Quốc Huy<br />
+                                            Email: nqhuy@sgu.edu.vn
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!----->
+
+                            <div class="col-md-4">
+                                <div class="post" style="background-color:#FFF">
+                                    <a href="#"> <img alt="" class="hieuunganh_image" src="../../../images/cntt_media/male.png" style="border-radius:20%" width="100" /> </a>
+
+                                    <div class="hieuunganh_box">
+                                        <div><a class="btn btn-success" type="button">Xem thêm</a></div>
+                                    </div>
+
+                                    <div>
+                                        <p style="text-align: center;">
+                                            Giảng viên<br />
+                                            ThS.NCS. Đinh Thị Ngọc Loan
+                                        </p>
+
+                                        <p>&nbsp;</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!----->
+
+                            <div class="col-md-4">
+                                <div class="post" style="background-color:#FFF">
+                                    <a href="../../56/gi-ng-vien-nguy-n-hoa/1.html"><img alt="" class="hieuunganh_image" src="../../../images/cntt_media/male.png" style="border-radius:20%" width="100" /> </a>
+
+                                    <div class="hieuunganh_box">
+                                        <div><a class="btn btn-success" href="../../56/gi-ng-vien-nguy-n-hoa/1.html" type="button">Xem thêm</a></div>
+                                    </div>
+
+                                    <div>
+                                        <p style="text-align: center;">
+                                            Giảng viên<br />
+                                            ThS.NCS. Nguyễn Thị Uyên Nhi<br />
+                                            Email: ntunhi@sgu.edu.vn
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!----->
+
+                            <div class="col-md-4">
+                                <div class="post" style="background-color:#FFF">
+                                    <a href="#"> <img alt="" class="hieuunganh_image" src="../../../images/cntt_media/male.png" style="border-radius:20%" width="100" /> </a>
+
+                                    <div class="hieuunganh_box">
+                                        <div><a class="btn btn-success" type="button">Xem thêm</a></div>
+                                    </div>
+
+                                    <div>
+                                        <p style="text-align: center;">
+                                            Giảng viên<br />
+                                            ThS. Lê Nhị Lãm Thúy&nbsp;<br />
+                                            Email: thuylnl@sgu.edu.vn
+                                        </p>
+
+                                        <p style="text-align: center;">&nbsp;</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-----><!----->
+
+                            <div class="col-md-4">
+                                <div class="post" style="background-color:#FFF">
+                                    <a href="#"> <img alt="" class="hieuunganh_image" src="../../../images/cntt_media/male.png" style="border-radius:20%" width="100" /> </a>
+
+                                    <div class="hieuunganh_box">
+                                        <div><a class="btn btn-success" type="button">Xem thêm</a></div>
+                                    </div>
+
+                                    <div>
+                                        <p style="text-align: center;">
+                                            Giảng viên<br />
+                                            ThS-Phan Thị Kim Loan<br />
+                                            Phó giám đốc Trung tâm Công nghệ thông tin<br />
+                                            Email: ptkloan@sgu.edu.vn
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!----->
+                        </div>
+                    </div>
+                    <!-------------------------->
+
+                    <h2 style="text-align: center;">Danh sách các học phần do Bộ môn Hệ thống thông tin quản lý</h2>
+
+                    <table align="center" border="1" cellpadding="0" cellspacing="0" style="width:504px;" width="504">
+                        <tbody>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;"><strong>STT</strong></p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;"><strong>MÃ HP</strong></p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;"><strong>TÊN MÔN HỌC</strong></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;">1</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;">841109</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;">Cơ sở dữ liệu</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;">2</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;">841065</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;">Các hệ quản trị CSDL</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;">3</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;">841048</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;">Phân tích thiết kế hệ thống thông tin</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;">4</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;">841111</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;">Phân tích thiết kế hướng đối tượng</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;">5</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;">841068</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;">Hệ thống thông tin doanh nghiệp</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;">6</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;">841120</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;">An toàn và bảo mật dữ liệu trong hệ thống thông tin</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;">7</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;">841121</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;">Cơ sở dữ liệu phân tán</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;">8</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;">841067</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;">Thương mại điện tử và ứng dụng</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:64px;height:20px;">
+                                    <p style="text-align: center;">9</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:64px;height:20px;">
+                                    <p style="text-align: center;">841073</p>
+                                </td>
+                                <td nowrap="nowrap" style="width:378px;height:20px;">
+                                    <p style="text-align: center;">Seminar chuyên đề (hướng Hệ thống thông tin)</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <hr>
+                    <p>Post by: Khoa CNTT, ngày: 2017-08-03 14:03:09</p>
+                    <p>Đính kèm: </p>
+
+
+                </div>
+
+
+            </div>
+            <!-- /.col-md-9 -->
+        </div>
+</body>
+
+

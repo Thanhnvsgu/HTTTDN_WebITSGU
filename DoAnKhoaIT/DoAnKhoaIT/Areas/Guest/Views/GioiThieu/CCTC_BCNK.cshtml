@@ -1,0 +1,176 @@
+﻿
+@{
+    ViewBag.Title = "CCTC_BCNK";
+    Layout = "~/Areas/Guest/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link href="/Assets/Guest/css/khungbentrai.css" rel="stylesheet" id="theme-stylesheet">
+</head>
+<body>
+    <div id="content">
+
+        <div class="container">
+
+            <div class="col-md-12">
+                <ul class="breadcrumb">
+                    <li>
+                        <a @Html.ActionLink("Trang chủ", "Index", "Home")</a>
+                    </li>
+                    <li>Giới thiệu</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <!-- *** PAGES MENU ***
+                _________________________________________________________ -->
+                <!-- *** PAGES MENU END *** -->
+
+                <div class="panel panel-default sidebar-menu">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="font-size:18px">Giới thiệu</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>@Html.ActionLink("Giới thiệu chung", "TTC_GTC", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Cơ sở vật chất", "TTC_GTCSVC", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Chi bộ", "CCTC_ChiBo", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Ban chủ nhiệm khoa", "CCTC_BCNK", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Hội đồng khoa học", "CCTC_HDKH", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Công đoàn", "CCTC_CongDoan", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Văn phòng khoa", "CCTC_VPK", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Công viên chức khoa", "CCTC_CVCK", "GioiThieu")</p>
+                    </div>
+                </div>
+
+                <!-- *** PAGES MENU END *** -->
+                @*<div class="banner">
+                        <a href="#">
+                            <img src="../../../cntt_media/khoa-cntt.jpg" alt="Khoa CNTT" class="img-responsive">
+                        </a>
+                    </div>*@
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="box" id="text-page">
+                    <h1 style="font-size:22px">Ban chủ nhiệm khoa</h1>
+
+                    <table border="1" cellpadding="1" cellspacing="1" style="width: 650px;margin:10px">
+                        <tbody>
+                            <tr>
+                                <td style="text-align: center;" width="170px"><strong>Lãnh đạo khoa</strong></td>
+                                <td style="text-align: center;"><strong>Phụ trách các công tác</strong></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="text-align: center;"><strong>TS. Phan Tấn Quốc </strong></p>
+
+                                    <p style="text-align: center;"><strong>Phó&nbsp;khoa phụ trách</strong></p>
+
+                                    <p style="text-align: center;"><strong>Email:quocpt@sgu.edu.vn</strong></p>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>Quản lý nhân sự, công tác thi đua - khen thưởng, công tác lưu trữ hồ sơ công văn, quỹ khoa;</li>
+                                        <li>Quản lý việc phát triển các chương trình đào tạo.&nbsp;Triển khai đào tạo chương trình&nbsp;hệ Chất lượng cao, hệ vừa làm vừa học, đào tạo ngắn hạn;</li>
+                                        <li>Quản lý và phát triển các quy trình làm việc của khoa;</li>
+                                        <li>Quản lý đội tuyển Olympic tin học sinh viên;</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="text-align: center;"><strong>PGS.TS&nbsp;Nguyễn Hòa</strong></p>
+
+                                    <p style="text-align: center;"><strong>Phó trưởng khoa</strong></p>
+
+                                    <p style="text-align: center;"><strong>Email:nguyenhoa@sgu.edu.vn</strong></p>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>Quản lý công tác nghiên cứu khoa học</li>
+                                        <li>Quản lý công tác phát triển giáo trình, sách, tài liệu tham khảo;</li>
+                                        <li>Quản lý, triển khai công tác đào tạo đại học hệ chính quy;</li>
+                                        <li>Quản lý công tác sự vụ liên quan đến việc học tập của sinh viên hệ đại học chính quy.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="text-align: center;"><strong>ThS. Nguyễn Nhựt Đông</strong></p>
+
+                                    <p style="text-align: center;"><strong>Phó trưởng khoa</strong></p>
+
+                                    <p style="text-align: center;"><strong>Email:nndong@sgu.edu.vn</strong></p>
+                                </td>
+                                <td>
+                                    <ol>
+                                        <li>Quản lý tài sản, cơ sở vật chất;</li>
+                                        <li>Quản lý công tác khảo thí;</li>
+                                        <li>Quản lý công tác đánh giá kết quả rèn luyện của sinh viên;</li>
+                                        <li>Quản lý công tác sinh viên, Đoàn thanh niên, Hội sinh viên, Hội cựu sinh viên;</li>
+                                        <li>Quản lý việc phát triển quan hệ với các doanh nghiệp.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>&nbsp;</p>
+
+                    <h3>Danh sách các trợ lý lãnh đạo Khoa</h3>
+
+                    <table border="1" cellpadding="1" cellspacing="1" style="width: 650px;">
+                        <tbody>
+                            <tr>
+                                <td><strong>Trợ lý Đào tạo</strong></td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;ThS. Nguyễn Thanh Sang, &nbsp;thanhsang@sgu.edu.vn<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;NCS. Nguyễn Thị Uyên Nhi, ntunhi@sgu.edu.vn
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Trợ lý nghiên cứu khoa học</strong></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;TS. GVC Đinh Thị Thu Hương,&nbsp;huongdtt@sgu.edu.vn</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Trợ lý văn thể mỹ</strong></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;ThS. Lê Nhị Lãm Thúy, thuylnl@sgu.edu.vn</td>
+                            </tr>
+                            <tr>
+                                <td><b>Quản lý sinh viên và văn phòng</b></td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Cử nhân Tô Thị Ngọc Châu,&nbsp;ngocchau@sgu.edu.vn<br />
+                                    &nbsp; &nbsp; Cử nhân Lê Ngọc Kim Ngân,&nbsp;nganlnk@sgu.edu.vn
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Trợ lý phòng máy</strong></td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Cử nhân Ngô Hữu Thanh, thanhnh@sgu.edu.vn<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;ThS. Lương Minh Huấn, lmhuan@sgu.edu.vn
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>&nbsp;</p>
+
+                    <hr>
+                    <p>Post by: Khoa CNTT, ngày: 2017-08-03 13:53:34</p>
+                    <p>Đính kèm: </p>
+
+
+                </div>
+
+
+            </div>
+            <!-- /.col-md-9 -->
+        </div>
+        <!-- /.container -->
+        <!-- /#content -->
+    </div>
+</body>
+

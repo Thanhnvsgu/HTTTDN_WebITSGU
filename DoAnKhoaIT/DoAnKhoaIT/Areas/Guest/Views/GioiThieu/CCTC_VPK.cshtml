@@ -1,0 +1,169 @@
+﻿
+@{
+    ViewBag.Title = "CCTC_VPK";
+    Layout = "~/Areas/Guest/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link href="/Assets/Guest/css/khungbentrai.css" rel="stylesheet" id="theme-stylesheet">
+</head>
+<body>
+    <div id="content">
+
+        <div class="container">
+
+            <div class="col-md-12">
+                <ul class="breadcrumb">
+                    <li>
+                        @Html.ActionLink("Trang chủ", "Index", "Home")
+                    </li>
+                    <li>Giới thiệu</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <!-- *** PAGES MENU ***
+                _________________________________________________________ -->
+                <!-- *** PAGES MENU END *** -->
+
+                <div class="panel panel-default sidebar-menu">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="font-size:18px">Giới thiệu</h3>
+                    </div>
+
+                    <div class="panel-body">
+
+                        <p>@Html.ActionLink("Giới thiệu chung", "TTC_GTC", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Cơ sở vật chất", "TTC_GTCSVC", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Chi bộ", "CCTC_ChiBo", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Ban chủ nhiệm khoa", "CCTC_BCNK", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Hội đồng khoa học", "CCTC_HDKH", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Công đoàn", "CCTC_CongDoan", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Văn phòng khoa", "CCTC_VPK", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Công viên chức khoa", "CCTC_CVCK", "GioiThieu")</p>
+                    </div>
+                </div>
+
+                <!-- *** PAGES MENU END *** -->
+                @*<div class="banner">
+                        <a href="#">
+                            <img src="../../../cntt_media/khoa-cntt.jpg" alt="Khoa CNTT" class="img-responsive">
+                        </a>
+                    </div>*@
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="box" id="text-page">
+                    <h1 style="font-size:22px">Văn phòng khoa</h1>
+
+                    <p dir="ltr"><strong><span style="color:#0000cd;">Chuyên viên văn phòng:</span></strong></p>
+
+                    <table border="0" cellpadding="10" cellspacing="10" style="width: 700px; align:center">
+                        <tbody>
+                            <tr>
+                                <td border="1">
+                                    <img alt="" height="150" src="../../../images/cntt_media/bo-mon/tothingocchau.jpg" />
+                                    <p>1. Tô Thị Ngọc Châu</p>
+
+                                    <p>Email: ngocchau@sgu.edu.vn</p>
+                                </td>
+                                <td>
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+                                </td>
+                                <td>
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>2. Lê Ngọc Kim Ngân</p>
+
+                                    <p>&nbsp;Email: nganlnk@sgu.edu.vn</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p><span style="color:#0000cd;"><strong>Quản lý phòng máy tính:</strong></span></p>
+
+                    <table border="0" cellpadding="10" cellspacing="10" style="width: 700px;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>1. CN.Ngô&nbsp;Hữu Thanh</p>
+
+                                    <p>Email: thanhnh@sgu.edu.vn</p>
+                                </td>
+                                <td>
+                                    <br />
+                                    &nbsp;
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p style="margin-left: 40px;">-Địa chỉ: Phòng C.A107, Nhà A, Cơ sở chính,</p>
+
+                    <p style="margin-left: 40px;">Số 273, An Dương Vương, Phường 3, Quận 5, Tp.HCM</p>
+
+                    <p style="margin-left: 40px;">-Điện thoại: 028.38382664</p>
+
+                    <ul>
+                        <li style="margin-left: 40px;">Số nội bộ:</li>
+                        <li style="margin-left: 40px;">Bấm số 0 hoặc&nbsp; 11 gặp cô Ngân</li>
+                        <li style="margin-left: 40px;">Bấm 12 gặp thầy Quốc</li>
+                        <li style="margin-left: 40px;">Bấm&nbsp; 14 gặp cô Châu</li>
+                        <li style="margin-left: 40px;">Bấm 15 gặp thầy Sang</li>
+                        <li style="margin-left: 40px;">Bấm 16 gặp thầy Thanh</li>
+                    </ul>
+
+                    <p style="margin-left: 40px;">-Email: vpkcntt@sgu.edu.vn</p>
+
+                    <p>Các biểu mẫu</p>
+
+                    <ul>
+                        <li><a href="../../../files/dethiketthuchocphan_mau.doc" target="">Mẫu Đề thi kết thúc học kỳ</a></li>
+                        <li><a href="../../../files/bm-giang-vien/dapan_dethiketthuchocphan_mau.doc" target="">Mẫu Đáp án đề thi kết thúc học kỳ</a></li>
+                        <li><a href="../../../files/giay--thi.pdf" target="">Mẫu Đáp án đề thi trắc nghiệm</a></li>
+                        <li><a href="../../../files/bm-giang-vien/tieuchidanhgiaCB-CC-VC_mau.doc" target="">Mẫu Tiêu chí đánh giá CB, CC, VC</a></li>
+                        <li><a href="../../../files/bm-giang-vien/danhgiavaphanloaicongchuc_mau.docx" target="">Mẫu Phiếu đánh giá và phân loại công&nbsp;chức</a></li>
+                        <li><a href="../../../files/bm-giang-vien/danhgiavaphanloaivienchuc_mau.docx" target="">Mẫu Phiếu đánh giá và phân loại viên&nbsp;chức</a></li>
+                        <li><a href="../../../files/MAU-DON-NGHI-DAY-CO-PHEP.docx" target="">Mẫu đơn nghỉ dạy có phép</a></li>
+                        <li><a href="../../../files/Mau-don-xin-day-bu.docx" target="">Mẫu đơn xin dạy bù</a></li>
+                        <li><a href="../../../files/Giy--ngh-Muon-phong.doc" target="">Giấy đề nghị mượn phòng lý thuyết</a></li>
+                    </ul>
+
+                    <hr>
+                    <p>Post by: Khoa CNTT, ngày: 2017-08-03 13:56:23</p>
+                    <p>Đính kèm: </p>
+
+
+                </div>
+
+
+            </div>
+            <!-- /.col-md-9 -->
+        </div>
+</body>
+

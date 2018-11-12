@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewBag.Title = "CCTC_HDKH";
+    Layout = "~/Areas/Guest/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link href="/Assets/Guest/css/khungbentrai.css" rel="stylesheet" id="theme-stylesheet">
+</head>
+<body>
+    <div id="content">
+
+        <div class="container">
+
+            <div class="col-md-12">
+                <ul class="breadcrumb">
+                    <li>
+                        <a @Html.ActionLink("Trang chủ", "Index", "Home")</a>
+                    </li>
+                    <li>Giới thiệu</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <!-- *** PAGES MENU ***
+                _________________________________________________________ -->
+                <!-- *** PAGES MENU END *** -->
+
+                <div class="panel panel-default sidebar-menu">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="font-size:18px">Giới thiệu</h3>
+                    </div>
+
+                    <div class="panel-body">
+                        <p>@Html.ActionLink("Giới thiệu chung", "TTC_GTC", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Cơ sở vật chất", "TTC_GTCSVC", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Chi bộ", "CCTC_ChiBo", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Ban chủ nhiệm khoa", "CCTC_BCNK", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Hội đồng khoa học", "CCTC_HDKH", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Công đoàn", "CCTC_CongDoan", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Văn phòng khoa", "CCTC_VPK", "GioiThieu")</p>
+                        <p>@Html.ActionLink("Công viên chức khoa", "CCTC_CVCK", "GioiThieu")</p>
+                    </div>
+                </div>
+
+                <!-- *** PAGES MENU END *** -->
+                @*<div class="banner">
+                        <a href="#">
+                            <img src="../../../cntt_media/khoa-cntt.jpg" alt="Khoa CNTT" class="img-responsive">
+                        </a>
+                    </div>*@
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="box" id="text-page">
+                    <h1 style="font-size:22px">Hội đồng khoa học Khoa</h1>
+
+                    <ol>
+                        <li>TS Huỳnh Minh Trí&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Chủ tịch</li>
+                        <li>TS Nguyễn Hòa&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - P.CT</li>
+                        <li>ThS Nguyễn Nhựt Đông &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- UV&nbsp;&nbsp;&nbsp;</li>
+                        <li>TS Cao Thái Phương Thanh&nbsp; &nbsp;&nbsp;&nbsp;- UV</li>
+                        <li>ThS Lê Ngọc Kim Khánh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- UV</li>
+                        <li>TS Phan Tấn Quốc&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- UV</li>
+                        <li>ThS Phùng Thái Thiên Trang&nbsp; &nbsp; - Thư ký</li>
+                    </ol>
+
+                    <hr>
+                    <p>Post by: Khoa CNTT, ngày: 2017-08-03 13:54:35</p>
+                    <p>Đính kèm: </p>
+
+
+                </div>
+
+
+            </div>
+            <!-- /.col-md-9 -->
+        </div>
+        <!-- /.container -->
+        <!-- /#content -->
+    </div>
+</body>
+
+

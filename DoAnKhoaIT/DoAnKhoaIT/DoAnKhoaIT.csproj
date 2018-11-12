@@ -163,13 +163,18 @@
     <Compile Include="Areas\GiaoVien\Controllers\SuKienController.cs" />
     <Compile Include="Areas\GiaoVien\Controllers\ThongBaoController.cs" />
     <Compile Include="Areas\GiaoVien\GiaoVienAreaRegistration.cs" />
+    <Compile Include="Areas\Guest\Controllers\BieuMauThuTucController.cs" />
+    <Compile Include="Areas\Guest\Controllers\BoMonController.cs" />
     <Compile Include="Areas\Guest\Controllers\CauLacBoSVController.cs" />
+    <Compile Include="Areas\Guest\Controllers\DaoTaoController.cs" />
+    <Compile Include="Areas\Guest\Controllers\GioiThieuController.cs" />
     <Compile Include="Areas\Guest\Controllers\HoatDongDoanHoiController.cs" />
     <Compile Include="Areas\Guest\Controllers\HomeController.cs" />
     <Compile Include="Areas\Guest\Controllers\LayoutController.cs" />
     <Compile Include="Areas\Guest\Controllers\OlympicSVController.cs" />
     <Compile Include="Areas\Guest\Controllers\SuKienController.cs" />
     <Compile Include="Areas\Guest\Controllers\ThongBaoController.cs" />
+    <Compile Include="Areas\Guest\Controllers\ThongBao_TinTucController.cs" />
     <Compile Include="Areas\Guest\Controllers\ThongTinTuyenSinhController.cs" />
     <Compile Include="Areas\Guest\Controllers\TinTucController.cs" />
     <Compile Include="Areas\Guest\GuestAreaRegistration.cs" />
@@ -4290,6 +4295,26 @@
     <Content Include="Files\01.pdf" />
     <Content Include="Files\04.xlsx" />
     <Content Include="Areas\Guest\Views\Shared\Gioithieu1.cshtml" />
+    <Content Include="Areas\Guest\Views\BoMon\HTTT.cshtml" />
+    <Content Include="Areas\Guest\Views\BoMon\KTPM.cshtml" />
+    <Content Include="Areas\Guest\Views\BoMon\KHMT.cshtml" />
+    <Content Include="Areas\Guest\Views\BoMon\MMT.cshtml" />
+    <Content Include="Areas\Guest\Views\DaoTao\TDDH.cshtml" />
+    <Content Include="Areas\Guest\Views\DaoTao\TDTS.cshtml" />
+    <Content Include="Areas\Guest\Views\GioiThieu\TTC_GTC.cshtml" />
+    <Content Include="Areas\Guest\Views\GioiThieu\TTC_GTCSVC.cshtml" />
+    <Content Include="Areas\Guest\Views\GioiThieu\CCTC_ChiBo.cshtml" />
+    <Content Include="Areas\Guest\Views\GioiThieu\CCTC_BCNK.cshtml" />
+    <Content Include="Areas\Guest\Views\GioiThieu\CCTC_HDKH.cshtml" />
+    <Content Include="Areas\Guest\Views\GioiThieu\CCTC_CongDoan.cshtml" />
+    <Content Include="Areas\Guest\Views\GioiThieu\CCTC_VPK.cshtml" />
+    <Content Include="Areas\Guest\Views\GioiThieu\CCTC_CVCK.cshtml" />
+    <Content Include="Areas\Guest\Views\ThongBao_TinTuc\HB.cshtml" />
+    <Content Include="Areas\Guest\Views\ThongBao_TinTuc\TTTD.cshtml" />
+    <Content Include="Areas\Guest\Views\BieuMauThuTuc\BM.cshtml" />
+    <Content Include="Areas\Guest\Views\BieuMauThuTuc\QD.cshtml" />
+    <Content Include="Areas\Guest\Views\BieuMauThuTuc\QT.cshtml" />
+    <Content Include="Areas\Guest\Views\BieuMauThuTuc\KLTN.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -4322,7 +4347,6 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\GiaoVien\Models\" />
     <Folder Include="Areas\Guest\Models\" />
-    <Folder Include="Areas\Guest\Views\HoatDongSV\" />
     <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
