@@ -245,6 +245,7 @@ INSERT INTO Tag VALUES  ( '5', N'Đoàn-hội','CV5', 1)
 INSERT INTO Tag VALUES  ( '6', N'Tuyển dụng','CV5', 1)
 INSERT INTO Tag VALUES  ( '7', N'Tuyển sinh','CV5', 1)
 INSERT INTO Tag VALUES  ( '8', N'Olympic','CV7', 1)
+INSERT INTO Tag VALUES  ( '9', N'CLB Sinhvien','CV7', 1)
 go
 CREATE TABLE Baidang
 (
@@ -618,6 +619,195 @@ INSERT INTO Baidang  VALUES ('BD31','TB',N'Thông báo nghỉ học môn kiến 
 <p>Thứ 7 (15/09/2018): Tiết 4-&gt;5 ph&ograve;ng C.A105 lớp DNA1171&nbsp;</p>
 ','09/07/2018',N'Nguyễn Ngọc Hải','12/30/2019','ALL',1)
  
+INSERT INTO Baidang  VALUES ('BD32','HDSV',N'Tuổi trẻ Đại học Sài Gòn hiến tặng gần 350 đơn vị máu',N'<p><strong>TUỔI TRẺ ĐẠI HỌC S&Agrave;I G&Ograve;N HIẾN TẶNG GẦN 350 ĐƠN VỊ M&Aacute;U</strong></p>
+
+<p><strong><em>Nối tiếp th&agrave;nh c&ocirc;ng của những chương tr&igrave;nh Hiến m&aacute;u t&igrave;nh nguyện trước, hơn 500 sinh vi&ecirc;n trường ĐH S&agrave;i G&ograve;n đ&atilde; tham gia hiến 350 đơn vị m&aacute;u trong đợt thứ 1 của chương tr&igrave;nh &ldquo;Hiến m&aacute;u t&igrave;nh nguyện&rdquo; lần thứ 21 do Hội Sinh vi&ecirc;n trường phối hợp với ph&ograve;ng Y tế trường, tổ chức v&agrave;o ng&agrave;y 3/11/2018.</em></strong></p>
+
+<p>&ldquo;Hiến m&aacute;u t&igrave;nh nguyện&rdquo; l&agrave; chương tr&igrave;nh được tổ chức thường xuy&ecirc;n v&agrave; nhận được sự quan t&acirc;m đặc biệt của sinh vi&ecirc;n trường trong những năm qua, vừa thể hiện được tinh thần tương th&acirc;n tương &aacute;i tốt đẹp của d&acirc;n tộc, vừa thể hiện bầu nhiệt huyết, sẵn l&ograve;ng chia sẻ của sinh vi&ecirc;n trường ĐH S&agrave;i G&ograve;n với cộng đồng.</p>
+
+<p>Ngay từ s&aacute;ng sớm, c&aacute;c bạn sinh vi&ecirc;n đ&atilde; tập trung đ&ocirc;ng đủ, điền th&ocirc;ng tin v&agrave;o giấy kh&aacute;m sức khỏe, đợi đến lượt được hiến tặng.</p>
+
+<p>Rất nhiều t&acirc;n sinh vi&ecirc;n (kh&oacute;a 18) lần đầu tham gia hiến tặng m&aacute;u, kh&ocirc;ng tr&aacute;nh khỏi hồi hộp, nhưng vẫn lu&ocirc;n nở nụ cười tươi của tuổi trẻ.</p>
+
+<p>B&ecirc;n cạnh đ&oacute;, cũng c&oacute; những anh/chị c&aacute;n bộ vi&ecirc;n chức, sinh vi&ecirc;n năm 3 năm 4, nhiều lần tham gia hiến m&aacute;u.</p>
+
+<p>Điểm nhấn đặc biệt lần n&agrave;y, ch&iacute;nh l&agrave; phần &ldquo;cho chữ&rdquo; thư ph&aacute;p của Trung t&acirc;m hiến m&aacute;u d&agrave;nh tặng cho bạn hiến tặng.<img alt="image010" src="http://youth.sgu.edu.vn/JAdmin/images/BaiVietDangWeb/2018/Hienmautinhnguyen/image010.jpg" />&nbsp;</p>
+'
+,'11/05/2018',N'Trần Bá Xú','12/30/2019','SV',1)
+
+
+
+
+INSERT INTO Baidang  VALUES ('BD33','HDSV',N'Tham dự buổi gặp gỡ Đoàn lãnh đạo Thành phố',N'<p>Khoa C&ocirc;ng nghệ th&ocirc;ng tin th&ocirc;ng b&aacute;o đến sinh vi&ecirc;n nội dung như sau:</p>
+
+<p>- Mỗi lớp cử lớp trưởng (hoặc lớp ph&oacute;/ b&iacute; thư) tham dự buổi gặp gỡ đo&agrave;n l&atilde;nh đạo th&agrave;nh phố&nbsp;(bắt buộc)</p>
+
+<p>- Sinh vi&ecirc;n tham dự ăn mặc lịch sự, đeo thẻ sinh vi&ecirc;n</p>
+
+<p>- C&oacute; mặt tại hội trường A, cơ sở ch&iacute;nh l&uacute;c 13g30</p>
+
+<p>Đề nghị sinh vi&ecirc;n c&aacute;c lớp thực hiện nghi&ecirc;m t&uacute;c th&ocirc;ng b&aacute;o n&agrave;y.</p>
+',
+'08/14/2018',N'Trần Bá Xú','12/30/2019','SV',1)
+
+
+INSERT INTO Baidang  VALUES ('BD34','HDSV',N'Thông báo chương trình sinh viên đến với Bảo tàng năm học 2017-2018',N'<h1>TH&Ocirc;NG B&Aacute;O CHƯƠNG TR&Igrave;NH SINH VI&Ecirc;N ĐẾN VỚI BẢO T&Agrave;NG NĂM HỌC 2017- 2018</h1>
+
+<p>ĐỐI TƯỢNG THAM GIA L&Agrave; SINH VI&Ecirc;N NĂM 2 THEO HỌC TẠI TRƯỜNG ĐẠI HỌC S&Agrave;I G&Ograve;N (BẮT BUỘC). SINH VI&Ecirc;N NỘP LẠI DẤU X&Aacute;C NHẬN CỦA BẢO T&Agrave;NG V&Agrave; B&Agrave;I THU HOẠCH CHO LỚP TRƯỞNG. LỚP TRƯỞNG NỘP VỀ&nbsp;VĂN PH&Ograve;NG KHOA HẾT&nbsp;NG&Agrave;Y&nbsp;31/5/2018. SINH VI&Ecirc;N XEM TH&Ecirc;M&nbsp;<a href="http://fit.sgu.edu.vn/web2017/files/DOC050318-003---Copy.pdf">TẠI FILE Đ&Iacute;NH K&Egrave;M</a></p>
+','05/03/2018',N'Trần Bá Xú','12/30/2019','SV',1)
+
+INSERT INTO Baidang  VALUES ('BD35','HDSV',N'Thử nghiệm sử dụng mẫu thẻ Hội viên loại mới',N'<h1>TH&Ocirc;NG B&Aacute;O QUAN TRỌNG V&Agrave; BẮT BUỘC</h1>
+
+<p>Thực hiện chủ trương của Trung ương Hội Sinh vi&ecirc;n Việt Nam về việc&nbsp;<strong>thử nghiệm sử dụng mẫu thẻ Hội vi&ecirc;n loại mới</strong>&nbsp;tại trường Đại học S&agrave;i G&ograve;n, tr&acirc;n trọng đề nghị c&aacute;c đồng ch&iacute; phối hợp, thực hiện triển khai c&ocirc;ng t&aacute;c đổi thẻ Hội vi&ecirc;n Hội Sinh vi&ecirc;n Việt Nam tại khoa. Qu&aacute; tr&igrave;nh triển khai thử nghiệm đổi thẻ ho&agrave;n to&agrave;n kh&ocirc;ng ph&aacute;t sinh chi ph&iacute; của sinh vi&ecirc;n.</p>
+
+<p><strong>&nbsp;1. Li&ecirc;n Chi Hội Sinh vi&ecirc;n khoa&nbsp;C&ocirc;ng nghệ Th&ocirc;ng tin&nbsp;được lựa chọn th&iacute; điểm&nbsp;</strong></p>
+
+<p><strong>2. Phạm vị thực hiện:&nbsp;</strong>To&agrave;n bộ c&aacute;c lớp Kh&oacute;a 15, 16, 17 (cả hệ Đại học v&agrave; Cao đẳng)</p>
+
+<p><strong>3. C&aacute;ch thức triển khai như sau:</strong></p>
+
+<p>B1: Chọn mỗi lớp tại đơn vị khoa một đại diện (B&iacute; thư/Chi hội trưởng/Lớp trưởng) c&oacute; năng lực để tổng hợp th&ocirc;ng tin to&agrave;n bộ SV tại lớp. Ai phụ tr&aacute;ch th&igrave; để t&ecirc;n đầu, b&ocirc;i mực đỏ để hệ thống tạo t&agrave;i khoản quản l&yacute; cho bạn đ&oacute;.</p>
+
+<p>B2: Gửi lại danh s&aacute;ch to&agrave;n bộ c&aacute;c lớp, sinh vi&ecirc;n của khoa theo y&ecirc;u cầu mẫu b&ecirc;n dưới về email&nbsp;h<a href="mailto:sv.cntt@sgu.edu.vn">sv.cntt@sgu.edu.vn</a>&nbsp;<strong>trước ng&agrave;y 11/4/2018</strong>.</p>
+
+<p>Ban Chấp h&agrave;nh Li&ecirc;n Chi Hội Sinh vi&ecirc;n khoa ph&acirc;n c&ocirc;ng đồng ch&iacute;&nbsp;<em>Trần Thị Tr&uacute;c Chi</em>&nbsp;(01655080910)&nbsp;phụ tr&aacute;ch nội dung n&agrave;y. Đề nghị c&aacute;c Chi Hội ở c&aacute;c kh&oacute;a&nbsp;15, 16, 17 (cả hệ Đại học v&agrave; Cao đẳng)&nbsp;nghi&ecirc;m t&uacute;c thực hiện v&agrave; triển khai hiệu quả.</p>
+
+<p><a href="~/Files/02.docx">files/TheHV-DSSV-ChiHoi.xlsx</a></p>
+
+<p>&nbsp;</p>
+','04/09/2018',N'Trần Bá Xú','04/11/2018','SV',1)
+
+
+
+INSERT INTO Baidang  VALUES ('BD36','HDSV',N'Thông báo về cuộc thi tuổi trẻ học tập và làm theo tư tưởng đạo đức phong cách Hồ Chí Minh 2018',N'<h1>TH&Ocirc;NG B&Aacute;O VỀ CUỘC THI TUỔI TRẺ HỌC TẬP V&Agrave; L&Agrave;M THEO TƯ TƯỞNG ĐẠO ĐỨC PHONG C&Aacute;CH HỒ CH&Iacute; MINH 2018</h1>
+
+<p>Triển khai cuộc thi tuổi trẻ học tập v&agrave; theo theo tư tưởng , đạo đức, phong c&aacute;ch theo c&ocirc;ng văn số 469/TB-ĐHSG Hiệu trưởng đ&atilde; k&yacute; v&agrave;o ng&agrave;y 28/3/2018. Sinh vi&ecirc;n tham gia cuộc thi bằng 2 c&aacute;ch:</p>
+
+<p>- V&agrave;o trang web ctsc.sgu.edu.vn</p>
+
+<p>- Hoặc trang web hocvalamtheobac.vn</p>
+
+<p>&nbsp;</p>
+','04/02/2018',N'Trần Bá Xú','06/30/2019','SV',1)
+
+---clbsv
+
+
+INSERT INTO Baidang  VALUES ('BD37','HDSV',N'Thông báo về việc đăng ký tham dự cuộc thi Vô địch Tin học văn phòng Thế giới năm 2018',N'<h1>Th&ocirc;ng b&aacute;o về việc đăng k&yacute; tham dự cuộc thi V&ocirc; địch Tin học văn ph&ograve;ng Thế giới năm 2018</h1>
+
+<p>Đăng k&yacute; tham dự cuộc thi V&ocirc; địch Tin học văn ph&ograve;ng Thế giới năm 2018.&nbsp;<a href="~/Files/02.docx">Chi tiết tại đ&acirc;y.</a></p>
+
+<p><a href="http://fit.sgu.edu.vn/web2017/detail/146/thong-bao-v-cu-c-thi-vo-d-ch-tin-h-c-th-gi-i-nam-2019/1">http://fit.sgu.edu.vn/web2017/detail/146/thong-bao-v-cu-c-thi-vo-d-ch-tin-h-c-th-gi-i-nam-2</a></p>
+
+<p>&nbsp;</p>
+','02/07/2018',N'Trần Bá Xú','12/30/2019','SV',1)
+
+
+
+
+INSERT INTO Baidang  VALUES ('BD38','HDSV',N'Thông báo về việc triển khai chương trình tìm kiếm Đại sứ Adelaide',N'<h1>Th&ocirc;ng b&aacute;o về việc triển khai chương tr&igrave;nh t&igrave;m kiếm Đại sứ Adelaide</h1>
+
+<p>Mọi chi tiết của th&ocirc;ng b&aacute;o c&aacute;c bạn sinh vi&ecirc;n&nbsp;<a href="~/Files/02.docx">xem tại:</a></p>
+
+<p>&nbsp;</p>
+','09/19/2017',N'Trần Bá Xú','12/30/2019','SV',1)
+
+
+
+INSERT INTO Baidang  VALUES ('BD39','HDSV',N'Lớp phổ cập kiến thức chứng khoáng dành cho sinh viên',N'<h1>Lớp phổ cập kiến thức chứng kho&aacute;n d&agrave;nh cho sinh vi&ecirc;n</h1>
+
+<p>Căn cứ v&agrave;o c&ocirc;ng văn số 107/UBCK ng&agrave;y 15/10/2017 của Uỷ Ban Chứng Kho&aacute;n nh&agrave; nước. Nh&agrave; trường tạo điều kiện để sinh vi&ecirc;n tham gia lớp phổ cập kiến thức về chứng kho&aacute;n. Xem chi tiết&nbsp;<a href="~/Files/02.docx">tại đ&acirc;y</a>.</p>
+
+<p>&nbsp;</p>
+','11/04/2018',N'Trần Bá Xú','12/30/2019','SV',1)
+
+
+INSERT INTO Baidang  VALUES ('BD40','HDSV',N'Thông tin đăng kí nhận vé tham gia Halloween',N'<p>Hiện tại HSV trường đang giữ trong tay hơn 300 v&eacute; tham quan C&ocirc;ng vi&ecirc;n văn h&oacute;a Đầm Sen HALLOWEEN KỲ B&Iacute; hết sức hấp dẫn.Với nhiều s&acirc;n chơi giao lưu như:&nbsp;<br />
+&nbsp;Kh&ocirc;ng gian ma qu&aacute;i.Hoạt động đường phố.&nbsp;H&oacute;a trang best costume.&nbsp;Đ&ecirc;m hội kỳ b&iacute;&nbsp;<br />
+- V&eacute; c&oacute; gi&aacute; trị v&agrave;o cổng hoặc giảm 50% gi&aacute; c&aacute;c loại v&eacute; trọn g&oacute;i&nbsp;<br />
+- V&eacute; được sử dụng trong ng&agrave;y 31/10/2018&nbsp;<br />
+C&ograve;n chần chờ g&igrave; nữa m&agrave; kh&ocirc;ng đăng k&yacute; ngay để nhận v&eacute; ho&agrave;n to&agrave;n miễn ph&iacute;<br />
+Thời hạn đăng k&yacute; t&iacute;nh từ b&acirc;y giờ cho đến 12h00 ng&agrave;y 31/10/2018 nha c&aacute;c bạn. Nhanh tay l&ecirc;n v&igrave; số lượng c&oacute; hạn n&egrave;.&nbsp;<br />
+Link đăng k&yacute;:&nbsp;<a href="~/Files/02.docx">~/Files/02.docx</a></p>
+
+<p>&nbsp;</p>
+','10/29/2018',N'Trần Bá Xú','12/30/2019','SV',1)
+
+
+
+INSERT INTO Baidang  VALUES ('BD41','HDSV',N'Hội thi thiết kế nhãn dán STICKER IN LAW',N'<h1>Hội thi thiết kế nh&atilde;n d&aacute;n STICKER IN LAW</h1>
+
+<p>Một s&acirc;n chơi mới cho những ai đam m&ecirc; thiết kế v&agrave; hội hoạ đ&atilde; xuất hiện rồi đ&acirc;yyyy&nbsp;</p>
+
+<p>Hưởng ứng Ng&agrave;y Ph&aacute;p luật Việt Nam năm 2018, Ban Thường vụ Đo&agrave;n trường tổ chức Hội thi thiết kế nh&atilde;n d&aacute;n (sticker) tuy&ecirc;n truyền về Luật mang t&ecirc;n &quot;STICKER IN LAW&quot; .&nbsp;Hội thi nhằm ph&aacute;t huy khả năng s&aacute;ng tạo của giới trẻ, đồng thời t&igrave;m ra giải ph&aacute;p tuy&ecirc;n truyền Luật một c&aacute;ch trực quan sinh động, gần gũi v&agrave; hiệu quả với sinh vi&ecirc;n&nbsp;</p>
+
+<p>C&aacute;c bạn sinh vi&ecirc;n của trường hoặc bất cứ c&ocirc;ng d&acirc;n Việt Nam n&agrave;o y&ecirc;u th&iacute;ch thể loại dễ thương n&agrave;y h&atilde;y nhanh ch&oacute;ng thực hiện ho&aacute; &yacute; tưởng v&agrave; gửi sản phẩm về cho BTC nh&eacute; .</p>
+
+<p>Kh&ocirc;ng chỉ giải thưởng hấp dẫn m&agrave; bộ sticker đạt giải cao nhất sẽ được Đo&agrave;n trường đăng tải tr&ecirc;n hệ thống Zalo v&agrave; đưa v&agrave;o sử dụng rộng r&atilde;i nữa c&aacute;c bạn nhaaa.</p>
+
+<p>&nbsp;Muốn c&oacute; bộ sản phẩm mang t&ecirc;n của m&igrave;nh th&igrave; h&atilde;y thể hiện khả năng s&aacute;ng tạo ngay v&agrave; lu&ocirc;n n&agrave;o, tụi m&igrave;nh chờ c&aacute;c bạn&nbsp;<br />
+----<br />
+Th&ocirc;ng tin chi tiết hội thi&nbsp;<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2FnT6vbX%3Ffbclid%3DIwAR1lRdTAOgY52XuIjTyiUsx7f0ofrmOz4VQGxpitBEupRWraKwRcOaky1J8&amp;h=AT1z9cDH0xR28zpoTpDtwuiE3am5Xgm5SynYq2qEDpJ16WZ0aVJtFQgTjLushrddYXwbIgYN2rVfZtKJKBOJKaJiwxovbC4Oj558bdfookpF0QfHuqtzytgWUKDtu20Y9SPTglTFzclJyj7v-RPzT9mpTEA">https://goo.gl/nT6vbX</a></p>
+','10/22/2018',N'Trần Bá Xú','12/30/2019','SV',1)
+
+
+
+INSERT INTO Baidang  VALUES ('BD42','HDSV',N'THE WINNER - Trận đấu đầy gay cấn và hồi hộp dành cho những chiến binh đã trở lại',N'<h1>THE WINNER - Trận đấu đầy gay cấn v&agrave; hồi hộp d&agrave;nh cho những chiến binh đ&atilde; trở lại</h1>
+
+<p>Bạn muốn trau dồi v&agrave; n&acirc;ng cao vốn tiếng Anh?</p>
+
+<p>Bạn muốn thử th&aacute;ch m&igrave;nh, vượt qua giới hạn của bản th&acirc;n v&agrave; đương đầu với những v&ograve;ng đấu h&oacute;c b&uacute;a, c&acirc;n n&atilde;o?</p>
+
+<p>Bạn muốn mở rộng c&aacute;c mối quan hệ, r&egrave;n luyện kĩ năng l&agrave;m việc nh&oacute;m, t&agrave;i h&ugrave;ng biện cũng như c&aacute;c kĩ năng mềm cần thiết kh&aacute;c?</p>
+
+<p>Bạn muốn tham gia một cuộc thi c&oacute; quy m&ocirc; lớn, được đầu tư ho&agrave;nh tr&aacute;ng với giải thưởng hấp dẫn?</p>
+
+<p>C&aacute;c chiến binh của ch&uacute;ng ta c&ograve;n chờ đợi g&igrave; m&agrave; kh&ocirc;ng nhanh tay đăng k&yacute; tham gia c&ugrave;ng tụi m&igrave;nh n&agrave;o<br />
+----------------<br />
+The Winner l&agrave; một cuộc thi học thuật được tổ chức chuy&ecirc;n nghiệp với h&igrave;nh thức đổi mới đầy th&uacute; vị v&agrave; đặc sắc.<br />
+Đ&acirc;y kh&ocirc;ng chỉ l&agrave; cơ hội để giao lưu v&agrave; học hỏi với c&aacute;c bạn sinh vi&ecirc;n khoa kh&aacute;c m&agrave; c&ograve;n l&agrave; nơi r&egrave;n luyện bản lĩnh, thể hiện sự tự tin, s&aacute;ng tạo v&agrave; năng động của sinh vi&ecirc;n thời k&igrave; hội nhập.<br />
+Đặc biệt, 400 th&iacute; sinh vượt qua v&ograve;ng Loại 2 (kiến thức TA B1 chuẩn ch&acirc;u &Acirc;u) th&igrave; sẽ được cấp giấy chứng nhận c&oacute; gi&aacute; trị x&eacute;t SV 5 tốt cấp trường cũng như cấp khoa<br />
+&nbsp;Chưa hết, lần đầu ti&ecirc;n tại The Winner, bạn c&oacute; thể tr&igrave;nh b&agrave;y &yacute; tưởng giải ph&aacute;p của m&igrave;nh về một vấn đề chung v&agrave; biến n&oacute; th&agrave;nh hiện thực nếu giải ph&aacute;p của bạn c&oacute; khả thi.<br />
+-----------------</p>
+
+<p>Đối tượng: tất cả sinh vi&ecirc;n trường ĐH S&agrave;i G&ograve;n</p>
+
+<p>H&igrave;nh thức:&nbsp;<br />
+V&ograve;ng loại 1 : Thi trực tuyến - Kiến thức tiếng anh tr&igrave;nh độ A2<br />
+V&ograve;ng loại 2: Thi trực tuyến - Kiến thức tiếng anh tr&igrave;nh độ B1<br />
+V&ograve;ng b&aacute;n kết 1:Thi trực tuyến - Kiến thức tiếng anh tr&igrave;nh độ C1<br />
+V&ograve;ng b&aacute;n kết 2: Thuyết tr&igrave;nh nh&oacute;m<br />
+V&ograve;ng chung kết: H&ugrave;ng biện tiếng Anh</p>
+
+<p>C&aacute;ch thức đăng k&iacute;:<br />
+Đăng k&iacute; trực tiếp v&agrave;o link&nbsp;<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fopen%3Fid%3D1Rw3HohQR1I-5rzZra0UtVmpr9Qfy3dcGCbyT6XKEdbU%26fbclid%3DIwAR2Pi2fyKTFLLK0SfA_QTM9fJRRFh5z4R7HSqQEdlWYpwZaSY-pXJyvJItU&amp;h=AT3mqmH9bfCjIIVxU9ZPREFpMxNaLSp2xGAfXIgKWzXzSeGSQjeafKSW2J7Y3HSfZlRevVPqdTF06-w53HG4rV8MFx8_jskeB900dztWnJhgqAzHlQ_G_5UeohS0dyiL_kJG3OACnuyQs-91WJqGGh8e">https://drive.google.com/open&hellip;</a></p>
+
+<p>Lệ ph&iacute;: 10.000 đ/ sv</p>
+
+<p>Thời gian nhận lệ ph&iacute; thi v&agrave; danh s&aacute;ch: từ 15/10 - 22/10/2018</p>
+
+<p>Mọi thắc mắc v&agrave; đ&oacute;ng lệ ph&iacute; xin li&ecirc;n hệ:&nbsp;<br />
+- Đ/c Tr&uacute;c Chi: 01655080910 (LCHT LCH SV khoa)<br />
+---------------<br />
+✔Kế hoạch chi tiết v&agrave; mẫu danh s&aacute;ch:&nbsp;<br />
+<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2FZY35wu%3Ffbclid%3DIwAR3jCBVQ4B3pVAM2joERxybUsI49Dc2n3803yvvFSvGIY7TiLWUOX0ww4oA&amp;h=AT3mgIXbPjq5GPcQa7kg5nyGrxZbwOy1yVRdwV3xPPh2fcSgV_NTCFraYgjvXvzgKAbz8vT52r6ZdwSmdkSopD8dm8rpiLGVMLS8IuxV4bR2pxMa_aun-oViUdi2K5HYiL5yo5Cz3u_wV0S6avpAHYay">goo.gl/ZY35wu</a></p>
+
+<p>✔Mọi thắc mắc cần giải đ&aacute;p li&ecirc;n hệ Trang th&ocirc;ng tin Đo&agrave;n khoa Ngoại ngữ:&nbsp;<br />
+<a href="https://www.facebook.com/doankhoangoaingusgu/">https://www.facebook.com/doankhoangoaingusgu/</a><br />
+-----------------<br />
+H&atilde;y c&ugrave;ng The Winner chiến đấu v&agrave; chiến thắng như những chiến binh mạnh mẽ nh&eacute;!!!<br />
+✔Mọi thắc mắc cần giải đ&aacute;p li&ecirc;n hệ Trang th&ocirc;ng tin Đo&agrave;n khoa Ngoại ngữ:&nbsp;<br />
+<a href="https://www.facebook.com/doankhoangoaingusgu/">https://www.facebook.com/doankhoangoaingusgu/</a><br />
+-----------------<br />
+H&atilde;y c&ugrave;ng The Winner chiến đấu v&agrave; chiến thắng như những chiến binh mạnh mẽ nh&eacute;!!!</p>
+
+<p>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br />
+Xin ch&acirc;n th&agrave;nh cảm ơn&nbsp;</p>
+
+<p>&nbsp;</p>
+','10/16/2018',N'Trần Bá Xú','12/30/2019','SV',1)
+
+
 go
 CREATE TABLE Chitietbaidang
 (	
@@ -660,6 +850,20 @@ INSERT INTO Chitietbaidang VALUES ('BD28','2',1)
 INSERT INTO Chitietbaidang VALUES ('BD29','2',1)
 INSERT INTO Chitietbaidang VALUES ('BD30','4',1)
 INSERT INTO Chitietbaidang VALUES ('BD31','4',1)
+INSERT INTO Chitietbaidang VALUES ('BD32','5',1)
+INSERT INTO Chitietbaidang VALUES ('BD33','5',1)
+INSERT INTO Chitietbaidang VALUES ('BD34','5',1)
+INSERT INTO Chitietbaidang VALUES ('BD35','5',1)
+INSERT INTO Chitietbaidang VALUES ('BD36','5',1)
+INSERT INTO Chitietbaidang VALUES ('BD37','9',1)
+INSERT INTO Chitietbaidang VALUES ('BD38','9',1)
+INSERT INTO Chitietbaidang VALUES ('BD39','9',1)
+INSERT INTO Chitietbaidang VALUES ('BD40','5',1)
+INSERT INTO Chitietbaidang VALUES ('BD41','9',1)
+INSERT INTO Chitietbaidang VALUES ('BD42','9',1)
+
+
+
 GO
 
 CREATE TABLE Loaidaotao
@@ -1630,6 +1834,16 @@ values ('BD30',null,null,null,null,null,'File 2','~/Files/02.docx',1)
 insert into Files(Mabaidang,MaNDBMTT,MaNDDT,MaCTNCKH,MaNDGT,Machuyentiep,TenFile,FilePath,Flag)
 values ('BD31',null,null,null,null,null,'File 2','~/Files/02.docx',1)
 insert into Files(Mabaidang,MaNDBMTT,MaNDDT,MaCTNCKH,MaNDGT,Machuyentiep,TenFile,FilePath,Flag)
+values ('BD35',null,null,null,null,null,'File 2','~/Files/02.docx',1)
+insert into Files(Mabaidang,MaNDBMTT,MaNDDT,MaCTNCKH,MaNDGT,Machuyentiep,TenFile,FilePath,Flag)
+values ('BD37',null,null,null,null,null,'File 2','~/Files/02.docx',1)
+insert into Files(Mabaidang,MaNDBMTT,MaNDDT,MaCTNCKH,MaNDGT,Machuyentiep,TenFile,FilePath,Flag)
+values ('BD38',null,null,null,null,null,'File 2','~/Files/02.docx',1)
+insert into Files(Mabaidang,MaNDBMTT,MaNDDT,MaCTNCKH,MaNDGT,Machuyentiep,TenFile,FilePath,Flag)
+values ('BD39',null,null,null,null,null,'File 2','~/Files/02.docx',1)
+insert into Files(Mabaidang,MaNDBMTT,MaNDDT,MaCTNCKH,MaNDGT,Machuyentiep,TenFile,FilePath,Flag)
+values ('BD40',null,null,null,null,null,'File 2','~/Files/02.docx',1)
+insert into Files(Mabaidang,MaNDBMTT,MaNDDT,MaCTNCKH,MaNDGT,Machuyentiep,TenFile,FilePath,Flag)
 values ('BD2','ND5',null,null,null,null,'File 3','~/Files/03.docx',1)
 insert into Files(Mabaidang,MaNDBMTT,MaNDDT,MaCTNCKH,MaNDGT,Machuyentiep,TenFile,FilePath,Flag)
 values ('BD2','ND5','NDDT2',null,null,null,'File 3','~/Files/03.docx',1)
@@ -1665,4 +1879,4 @@ create table Hinhanh
 	FOREIGN KEY (MaNDGT) REFERENCES NoidungGT(MaNDGT)
 )
 insert into Hinhanh(Mabaidang,MaNDDT,MaCTNCKH,Machuyentiep,MaNDGT,TenFile,FilePath,Flag)
-values(null,'NDDT3',null,null,null,'khoa-hoc-may-tinh','~/Image/khoa-hoc-may-tinh.png',1)
+values(null,'NDDT3',null,null,null,'khoa-hoc-may-tinh','~/Image/khoa-hoc-may-tinh.jpg',1)
